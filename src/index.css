@@ -76,6 +76,9 @@
   html {
     font-family: "Roboto", sans-serif;
   }
+  h2 {
+    @apply text-6xl font-bold;
+  }
 
   .gradient-text {
     display: inline-block;
