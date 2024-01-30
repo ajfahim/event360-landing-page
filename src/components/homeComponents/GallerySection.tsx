@@ -12,10 +12,11 @@ import galleryImage7 from "@/assets/images/gallery7.png";
 import galleryImage8 from "@/assets/images/gallery8.png";
 import galleryImage9 from "@/assets/images/gallery9.png";
 import { motion } from "framer-motion";
+import Container from "../shared/Container";
 
 const GallerySection = () => {
   return (
-    <div className="flex flex-col lg:flex-row justify-between mb-[160px] md:space-x-[120px]">
+    <Container className="flex flex-col lg:flex-row justify-between mb-[160px] md:space-x-[120px]">
       <div className="flex items-center justify-center max-w-[512px] relative">
         <img
           className="absolute top-0 -right-36 hidden md:block"
@@ -124,7 +125,7 @@ const GallerySection = () => {
           <img className="w-full h-full" src={galleryImage10} alt="" />
         </motion.div>
       </div>
-    </div>
+    </Container>
   );
 };
 

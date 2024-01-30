@@ -1,5 +1,6 @@
 import HeroImage from "@/assets/images/HeroImage.png";
 import { motion } from "framer-motion";
+import Container from "../shared/Container";
 
 const heroStaggerAnimationVariation = {
   initial: { opacity: 0, y: -20 },
@@ -11,7 +12,7 @@ const heroStaggerAnimationVariation = {
 };
 const HeroSection = () => {
   return (
-    <div className="w-full my-16 text-center">
+    <Container className="w-full my-16 text-center">
       <motion.div
         variants={heroStaggerAnimationVariation}
         initial="initial"
@@ -38,7 +39,7 @@ const HeroSection = () => {
       >
         <img src={HeroImage} alt="Hero Image" className="w-full" />
       </motion.div>
-    </div>
+    </Container>
   );
 };
 

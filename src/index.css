@@ -89,4 +89,12 @@
     background-image: linear-gradient(277deg, #5a01cb 6.75%, #fe8900 77.4%);
     background-clip: text;
   }
+
+  .light-blue-gradient-bg {
+    background: linear-gradient(
+      105deg,
+      #ceedff 16.17%,
+      rgba(255, 255, 255, 0) 87.53%
+    );
+  }
 }

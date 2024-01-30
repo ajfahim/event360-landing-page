@@ -3,9 +3,10 @@ import eventImage2 from "@/assets/images/eventImage2.png";
 import eventImage3 from "@/assets/images/eventImage3.png";
 import eventImage4 from "@/assets/images/eventImage4.png";
 import eventImage5 from "@/assets/images/eventImage5.png";
+import Container from "../shared/Container";
 const EventItemsSection = () => {
   return (
-    <div className="text-center mb-[124px]">
+    <Container className="text-center mb-[124px]">
       {/* <img
         className="absolute -top-[300px] -left-[400px] !overflow-hidden"
         src={eventItemGreenBg}
@@ -43,7 +44,7 @@ const EventItemsSection = () => {
           <p className="text-2xl font-medium text-left">Event Item - 5</p>
         </div>
       </div>
-    </div>
+    </Container>
   );
 };
 

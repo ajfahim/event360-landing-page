@@ -1,3 +1,4 @@
+import Container from "../shared/Container";
 import ServiceCard from "../shared/ServiceCard";
 
 const cardInfo = [
@@ -44,7 +45,7 @@ const cardInfo = [
 
 const OurServicesSection = () => {
   return (
-    <div className="w-full text-center mb-[143px]">
+    <Container className="w-full text-center mb-[143px]">
       <h2 className="mb-3">Our Services</h2>
       <p className="mb-14 text-[#566B84]">
         Ut posuere felis arcu tellus tempus in in ultricies. Gravida id nibh
@@ -55,7 +56,7 @@ const OurServicesSection = () => {
           <ServiceCard key={index} {...card} />
         ))}
       </div>
-    </div>
+    </Container>
   );
 };
 
