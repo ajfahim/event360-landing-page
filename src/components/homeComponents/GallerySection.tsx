@@ -15,9 +15,13 @@ import { motion } from "framer-motion";
 
 const GallerySection = () => {
   return (
-    <div className="flex justify-between mb-[160px] space-x-[120px]">
+    <div className="flex flex-col lg:flex-row justify-between mb-[160px] md:space-x-[120px]">
       <div className="flex items-center justify-center max-w-[512px] relative">
-        <img className="absolute top-0 -right-36" src={PartyIcon} alt="" />
+        <img
+          className="absolute top-0 -right-36 hidden md:block"
+          src={PartyIcon}
+          alt=""
+        />
         <div>
           <h2>Gallery</h2>
           <p className="my-[35px] text-[#566B84]">
@@ -50,72 +54,72 @@ const GallerySection = () => {
           </ul>
         </div>
       </div>
-      <div className="grid grid-cols-12 grid-rows-12 relative">
+      <div className="grid md:grid-cols-12 md:grid-rows-12 relative">
         <img
-          className="absolute -bottom-36 right-0"
+          className="absolute -bottom-36 right-0 hidden md:block"
           src={explotionIcon}
           alt=""
         />
         <motion.div
           whileHover={{ scale: 1.3, transition: { duration: 0.3 } }}
-          className="col-span-3 row-span-4 row-start-2"
+          className="lg:col-span-3 md:row-span-4 md:row-start-2"
         >
           <img className="w-full h-full" src={galleryImage1} alt="" />
         </motion.div>
         <motion.div
           whileHover={{ scale: 1.3, transition: { duration: 0.3 } }}
-          className="col-span-3 row-span-4 row-start-1"
+          className="lg:col-span-3 md:row-span-4 md:row-start-1"
         >
           <img className="w-full h-full" src={galleryImage2} alt="" />
         </motion.div>
 
         <motion.div
           whileHover={{ scale: 1.3, transition: { duration: 0.3 } }}
-          className="col-span-3 row-span-4 row-start-1"
+          className="lg:col-span-3 md:row-span-4 md:row-start-1"
         >
           <img className="w-full h-full" src={galleryImage3} alt="" />
         </motion.div>
         <motion.div
           whileHover={{ scale: 1.3, transition: { duration: 0.3 } }}
-          className="col-span-3 row-span-4 row-start-2"
+          className="lg:col-span-3 md:row-span-4 md:row-start-2"
         >
           <img className="w-full h-full" src={galleryImage4} alt="" />
         </motion.div>
         <motion.div
           whileHover={{ scale: 1.3, transition: { duration: 0.3 } }}
-          className="col-span-3 row-span-4"
+          className="lg:col-span-3 md:row-span-4"
         >
           <img className="w-full h-full" src={galleryImage5} alt="" />
         </motion.div>
 
         <motion.div
           whileHover={{ scale: 1.3, transition: { duration: 0.3 } }}
-          className="col-span-3 row-span-4"
+          className="lg:col-span-3 md:row-span-4"
         >
           <img className="w-full h-full" src={galleryImage6} alt="" />
         </motion.div>
         <motion.div
           whileHover={{ scale: 1.3, transition: { duration: 0.3 } }}
-          className="col-span-3 row-span-4"
+          className="lg:col-span-3 md:row-span-4"
         >
           <img className="w-full h-full" src={galleryImage7} alt="" />
         </motion.div>
         <motion.div
           whileHover={{ scale: 1.3, transition: { duration: 0.3 } }}
-          className="col-span-3 row-span-4"
+          className="lg:col-span-3 md:row-span-4"
         >
           <img className="w-full h-full" src={galleryImage8} alt="" />
         </motion.div>
 
         <motion.div
           whileHover={{ scale: 1.3, transition: { duration: 0.3 } }}
-          className="col-span-3 row-span-4"
+          className="lg:col-span-3 md:row-span-4"
         >
           <img className="w-full h-full" src={galleryImage9} alt="" />
         </motion.div>
         <motion.div
           whileHover={{ scale: 1.3, transition: { duration: 0.3 } }}
-          className="col-span-3 row-span-4"
+          className="lg:col-span-3 md:row-span-4"
         >
           <img className="w-full h-full" src={galleryImage10} alt="" />
         </motion.div>
