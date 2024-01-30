@@ -26,10 +26,7 @@ const HeroSection = () => {
         >
           For Winter
         </motion.h3>
-        <motion.p
-          variants={heroStaggerAnimationVariation}
-          className="text-lg mb-10"
-        >
+        <motion.p variants={heroStaggerAnimationVariation} className=" mb-10">
           Ut posuere felis arcu tellus tempus in in ultricies. Gravida id nibh
           ornare viverra. <br /> Ultrices faucibus neque velit risus ac id
           lorem.
