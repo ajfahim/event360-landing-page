@@ -3,6 +3,7 @@ import GallerySection from "@/components/homeComponents/GallerySection";
 import GetStartedSection from "@/components/homeComponents/GetStartedSection";
 import HeroSection from "@/components/homeComponents/HeroSection";
 import OurServicesSection from "@/components/homeComponents/OurServicesSection";
+import TestimonialSection from "@/components/homeComponents/TestimonialSection";
 
 const Home = () => {
   return (
@@ -12,6 +13,7 @@ const Home = () => {
       <EventItemsSection />
       <GallerySection />
       <GetStartedSection />
+      <TestimonialSection />
     </>
   );
 };

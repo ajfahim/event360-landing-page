@@ -97,4 +97,11 @@
       rgba(255, 255, 255, 0) 87.53%
     );
   }
+  .dark-blue-gradient-bg {
+    background: radial-gradient(
+      399.11% 87.34% at 3.92% 10.69%,
+      #6a0de0 0%,
+      #1e0044 100%
+    );
+  }
 }
