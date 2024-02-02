@@ -2,6 +2,7 @@ import EventItemsSection from "@/components/homeComponents/EventItemsSection";
 import GallerySection from "@/components/homeComponents/GallerySection";
 import GetStartedSection from "@/components/homeComponents/GetStartedSection";
 import HeroSection from "@/components/homeComponents/HeroSection";
+import NumbersSection from "@/components/homeComponents/NumbersSection";
 import OurServicesSection from "@/components/homeComponents/OurServicesSection";
 import RecentEventsSection from "@/components/homeComponents/RecentEventsSection";
 import TestimonialSection from "@/components/homeComponents/TestimonialSection";
@@ -16,6 +17,7 @@ const Home = () => {
       <GetStartedSection />
       <TestimonialSection />
       <RecentEventsSection />
+      <NumbersSection />
     </>
   );
 };
