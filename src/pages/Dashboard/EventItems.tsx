@@ -1,5 +1,7 @@
+import TabsDemo from "@/components/shared/CustomMenuBar";
+
 const EventItems = () => {
-  return <div>Event Items</div>;
+  return <TabsDemo />;
 };
 
 export default EventItems;
